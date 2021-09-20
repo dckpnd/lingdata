@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-09-21T00:16:11+03:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///C:/Users/Елизавета/Downloads/vladivostok_teacher.mp4"
+            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./vladivostok_teacher.mp4"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:0a8c4ff6-b72b-4db1-9c45-b61f5609e251</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">52</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="16"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="4266"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="4416"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="8305"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="8410"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="12110"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="12193"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="18749"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="18749"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="22238"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="22238"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="29191"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="29232"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="34936"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="34940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="41231"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="41284"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="43493"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="43616"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="46028"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="46069"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="52412"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="52628"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="58522"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="58728"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="61662"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="61738"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="63022"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="63063"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="64650"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="64749"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="66807"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="66848"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="70825"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="71100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="72842"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="72933"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="85666"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="85869"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="90924"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="90947"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="94758"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="94974"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="97829"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="97964"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="101738"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="101844"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="109536"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="109728"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="114828"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="114994"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="119854"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="default"/>
+    <TIER DEFAULT_LOCALE="ru" LINGUISTIC_TYPE_REF="utterance"
+        PARTICIPANT="@nns1957f" TIER_ID="@nns1957f-Spch"/>
+    <TIER DEFAULT_LOCALE="ru" LINGUISTIC_TYPE_REF="utterance"
+        PARTICIPANT="@eb1978f" TIER_ID="@eb1978f-Spch"/>
+    <TIER LINGUISTIC_TYPE_REF="gestures" PARTICIPANT="@eb1978f" TIER_ID="@eb1978f-RGU"/>
+    <TIER LINGUISTIC_TYPE_REF="gestures" PARTICIPANT="@nns1957f" TIER_ID="@nns1957f-RGU"/>
+    <TIER LINGUISTIC_TYPE_REF="words" PARENT_REF="@eb1978f-Spch"
+        PARTICIPANT="@eb1978f" TIER_ID="@eb1978f-Words"/>
+    <TIER LINGUISTIC_TYPE_REF="phonetic_transcription"
+        PARENT_REF="@eb1978f-Spch" PARTICIPANT="@eb1978f" TIER_ID="@eb1978f-IPA"/>
+    <TIER LINGUISTIC_TYPE_REF="gesture_phases" PARENT_REF="@eb1978f-RGU"
+        PARTICIPANT="@eb1978f" TIER_ID="@eb1978f-RGph"/>
+    <TIER LINGUISTIC_TYPE_REF="gesture_phases"
+        PARENT_REF="@nns1957f-RGU" PARTICIPANT="@nns1957f" TIER_ID="@nns1957f-RGph"/>
+    <TIER LINGUISTIC_TYPE_REF="part of speech"
+        PARENT_REF="@eb1978f-Words" PARTICIPANT="@eb1978f" TIER_ID="@eb1978f-POS"/>
+    <TIER LINGUISTIC_TYPE_REF="gesture_meaning"
+        PARENT_REF="@eb1978f-RGph" PARTICIPANT="@eb1978f" TIER_ID="@eb1978f-RGMe"/>
+    <TIER LINGUISTIC_TYPE_REF="gesture_meaning"
+        PARENT_REF="@nns1957f-RGph" PARTICIPANT="@nns1957f" TIER_ID="@nns1957f-RGMe"/>
+    <TIER ANNOTATOR="dckpnd" DEFAULT_LOCALE="en"
+        LINGUISTIC_TYPE_REF="translation" PARENT_REF="text@eb1978f"
+        PARTICIPANT="@eb1978f" TIER_ID="transl@eb1978f">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a18" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Every parenr wants their child to make friends when he or she starts going to school.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a19" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Because his or her neighbour won't surely be in the same class, right?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a20" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>So is it worth interfering with this process for the parents?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a21" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>So what do they... Because many parents want to control friendships, to advise that a son or a daughter is such a nice boy.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a22" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>Well, what would you advise considering all your experience?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a41" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>Is it worth changing a child's diet somehow radically with the come of the schooltime?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a42" ANNOTATION_REF="a26">
+                <ANNOTATION_VALUE>Perhaps one should reject some kinds of food while on the contrary adding others?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="dckpnd" DEFAULT_LOCALE="en"
+        LINGUISTIC_TYPE_REF="translation" PARENT_REF="text@nns1957f"
+        PARTICIPANT="@nns1957f" TIER_ID="transl@nns1957f">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a27" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>If the children who had been friends and got into different classes, one shouln't... It's not worth getting upset so much.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a28" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>A child adapts quickly in a new school group.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a29" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>They will find... They will independently choose mates, those who to be friends with, those who to communicate with.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a30" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>A child will introduce them to his or her parents.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a31" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>And the parents will make conclusions.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a32" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>When classes end, parents joyfully meet their kids.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a33" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>They immediately should not say... ask them: "what have you got?"</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a34" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Ask them: "what have you learned? that was new for you".</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a35" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>"Who have you got acquainted with?"</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a36" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>"What was interesting at the class?"</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a37" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>"What was funny at the class?"</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a38" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>At a math class, at a PE class, too.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a39" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>Children will be happy to tell.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a40" ANNOTATION_REF="a24">
+                <ANNOTATION_VALUE>And only after that, well, as they go, parents will learn about other occasions that happened during a day at school with their child, too.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a47" ANNOTATION_REF="a43">
+                <ANNOTATION_VALUE>In the morning a child should necessarily have a breakfast.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a48" ANNOTATION_REF="a44">
+                <ANNOTATION_VALUE>Though... Although there are breakfasts in our school...</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a50" ANNOTATION_REF="a45">
+                <ANNOTATION_VALUE>But a child gets up at seven, some children at the first time get up very early, at a half past six.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a51" ANNOTATION_REF="a46">
+                <ANNOTATION_VALUE>And by this time, when there will be breakfast at nine o'clock, some children will have been hungry.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a52" ANNOTATION_REF="a49">
+                <ANNOTATION_VALUE>Naturally, breakfast is necessary.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="dckpnd" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="utterance" PARTICIPANT="@nns1957f" TIER_ID="text@nns1957f">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>если дети / которые дружили и попали в разные классы / не ну... не стоит так уж сильно огорчаться //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
+                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>ребёнок... / кхм / он быстро адаптируется в новом / классном коллективе //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3"
+                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>он найдёт / он сам выберет себе товарищей / с кем он будет / дружить с кем он будет общаться //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4"
+                TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>он познакомит своих родителей //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5"
+                TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>и родители / сделают вывод //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6"
+                TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>когда заканчиваются занятия / родители / с радостью встречают своих де.. / ээ/ ребятишек //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7"
+                TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>они / первым делом / не должны говорить / ээ / спрашивать у них / а что ты получил? //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8"
+                TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>спроси / чему ты наулился? / новому //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9"
+                TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>с кем ты познакомился? //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10"
+                TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>что интересного было на уроке? //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11"
+                TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>что смешного было на уроке? //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12"
+                TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>на уроке математики / на т... / на... / том же уроке физкультуры //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23"
+                TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>э / дети с радостью расскажут //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24"
+                TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>а потом уже / ну / в процессе / эээ / родители узнают / и о других / э / событиях которые произошли / ээ / за этот день / ээ / в школе у ребёнка //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a43"
+                TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>утром / ребёнок обязательно должен позавтракать //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a44"
+                TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>хоть / ээ / хотя и у нас в школе есть / э / завтраки //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a45"
+                TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>но / э / ребёнок встаёт в семь / некоторы... / ээ / некоторые дети встают / первое время очень рано / ээ / в шесть тридцать //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a46"
+                TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>и к этому времени / э / б.. / пока будет завтрак девять часов / некоторые проголодаются //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a49"
+                TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts52">
+                <ANNOTATION_VALUE>естественно / аа / завтрак обяз... / э / обязателен //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="dckpnd" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="utterance" PARTICIPANT="@eb1978f" TIER_ID="text@eb1978f">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>каждый родитель хочет чтобы когда его ребёнок пошёл в школу у него появились друзья //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14"
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>ведь не обязательно что его сосед попадёт с ним в один класс правильно? //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15"
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>вот / ээ / стоит ли в этот процесс как-то вмешиваться / э / родителям? //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>вот как ему... / потому что многие хотят там дружбу регулировать подсказать что / сын или дочь такой замечательный мальчик //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17"
+                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>вот / э / что бы вы посоветовали с / высоты своего опыта? //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25"
+                TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>стоит ли менять как-то с наступлением школы / э / кардинальным образом рацион / э / ребёнка? //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26"
+                TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>может быть от каких-то продуктов отказывваться / а какие-то напротив добавлять?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="utterance" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Time_Subdivision"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="words" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="phonetic_transcription" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="gestures" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Time_Subdivision"
+        CONTROLLED_VOCABULARY_REF="Gesture phases"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="gesture_phases" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="gesture_meaning" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        CONTROLLED_VOCABULARY_REF="POS" GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="part of speech" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="translation" TIME_ALIGNABLE="false"/>
+    <LOCALE COUNTRY_CODE="RU" LANGUAGE_CODE="ru"/>
+    <LOCALE LANGUAGE_CODE="en" VARIANT="ASCII"/>
+    <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001"
+        LANG_ID="und" LANG_LABEL="undetermined (und)"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+    <CONTROLLED_VOCABULARY CV_ID="POS">
+        <DESCRIPTION LANG_REF="und">Part of Speech</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid_6f6a47c6-93ca-4550-99d7-0f31d6725b1b">
+            <CVE_VALUE DESCRIPTION="noun" LANG_REF="und">n</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_d952687b-b802-4638-9b68-d901c35049ae">
+            <CVE_VALUE DESCRIPTION="verb" LANG_REF="und">v</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_b3ba6495-ef80-4143-8448-bd97e2fbb189">
+            <CVE_VALUE DESCRIPTION="interjection" LANG_REF="und">int</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_b088a700-edd0-42ba-845b-0c7fa625c126">
+            <CVE_VALUE DESCRIPTION="adjective" LANG_REF="und">adj</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_b6c525c4-f3ae-47cb-bbcd-1c0d44667e2b">
+            <CVE_VALUE DESCRIPTION="pronoun" LANG_REF="und">pro</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_9fd4c221-0abe-4dc4-8c95-1ff04c42801a">
+            <CVE_VALUE DESCRIPTION="determiner" LANG_REF="und">det</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_61a626f6-1e50-4748-95e1-748851717332">
+            <CVE_VALUE DESCRIPTION="article" LANG_REF="und">art</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_35e3c550-156f-4a55-9028-3cf46c6a4a53">
+            <CVE_VALUE DESCRIPTION="preposition" LANG_REF="und">prep</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_d7150f98-682f-49e7-bc2e-aa9b54c2d27c">
+            <CVE_VALUE DESCRIPTION="adverb" LANG_REF="und">adv</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_6cdb3fa9-c899-416a-b568-37a93fd8c232">
+            <CVE_VALUE DESCRIPTION="conj" LANG_REF="und">con</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_20534c35-1b3c-4e8a-8196-9f715810cc9a">
+            <CVE_VALUE DESCRIPTION="demonstrative pronoun" LANG_REF="und">dem</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_1192c752-636e-48fc-a1fc-2a01631d2244">
+            <CVE_VALUE DESCRIPTION="post" LANG_REF="und">post</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_b8dd9f75-a6f0-40af-9dbc-64a40af21cb0">
+            <CVE_VALUE DESCRIPTION="particle" LANG_REF="und">part</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Gesture phases">
+        <DESCRIPTION LANG_REF="und">Gesture phases</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid_836d2eb5-bf54-462b-8fc4-2844c82afe76">
+            <CVE_VALUE DESCRIPTION="preparation" LANG_REF="und">preparation</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_e84377d1-5d85-480f-9efa-548b8ab86206">
+            <CVE_VALUE DESCRIPTION="stroke" LANG_REF="und">stroke</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_7b6c5538-e24a-487e-84ea-49e37e424dd2">
+            <CVE_VALUE DESCRIPTION="hold" LANG_REF="und">hold</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_1fabeaac-99ba-4c0c-8a72-2d62d8a5cc95">
+            <CVE_VALUE DESCRIPTION="partial retraction" LANG_REF="und">part.retraction</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+</ANNOTATION_DOCUMENT>
